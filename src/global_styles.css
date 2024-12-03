@@ -1,1 +1,35 @@
-/* Add application styles & imports to this file! */
+* {
+  box-sizing: border-box;
+  font-family: Calibri, sans-serif;
+}
+
+:root {
+  --DN_Green: #89c82e;
+  --DN_Grey: #3c3c3b;
+  --DN_Pink: #e70064;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-span {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.input-label {
+  width: 55px;
+}
+
+.text-input {
+  width: 14rem; /* changed from "flex-grow: 1"; */
+  height: 1.5rem;
+  padding: 5px;
+  border: none;
+}

@@ -1,0 +1,6 @@
+#submit-button {
+  border: 1px solid var(--DN_Grey);
+  border-radius: 5px;
+  padding: 0.1rem 1rem;
+  background-color: var(--DN_Pink);
+}
